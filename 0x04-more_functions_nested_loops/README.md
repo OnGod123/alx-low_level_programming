@@ -1,1 +1,1 @@
-funtions continuation
+nested loops continuation
