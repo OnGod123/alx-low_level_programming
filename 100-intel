@@ -1,0 +1,3 @@
+#!/bin/bash
+CONVERT=gcc -c $CFILE.
+echo $CONVERT
