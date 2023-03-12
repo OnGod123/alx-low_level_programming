@@ -1,1 +1,1 @@
-pointers second task
+argc and argv task
