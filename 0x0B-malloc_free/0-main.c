@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * simple_print_buffer - prints buffer in hexa
  * @buffer: the address of memory to print
@@ -25,7 +24,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
 		printf("\n");
 	}
 	printf("0x%02x", buffer[i]);
-	i++;
+i++;
 	}
 	printf("\n");
 }

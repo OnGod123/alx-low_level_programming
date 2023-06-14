@@ -1,9 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 #include <stdlib.h>
 
 /**
- * create_array - Function that creates an array of chars.
- * @size: Size of the string
+ * create_array - creates arrays of character.
+ * @size: size of the string
  * @c: The charcter for initialization
  *
  * Return: The pointer to the string

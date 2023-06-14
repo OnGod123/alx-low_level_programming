@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * _strdup - function that returns a pointer to a newly allocated space.
- * @str: the string to be replicated
+ * _strdup - function that return a pointer to anew allocated strin.
+ * @str: the string to be point to
  *
  * Return: The pointer
  */
