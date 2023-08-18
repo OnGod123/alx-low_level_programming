@@ -20,9 +20,11 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 va_list kwargs;
 
+unsigned int i;
+
 va_start(kwargs, n);
 
-for (unsigned int i = 0; i < n; i++)
+for (i = 0; i < n; i++)
 {
 int decimal = va_arg(kwargs, int);
 printf("%d", decimal);
