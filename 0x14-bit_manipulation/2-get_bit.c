@@ -1,23 +1,20 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * get_bit - get bit at index
- * @n: number
- * @index: index within binary number
- * Return: bit 0 or 1, or -1 if error
+ * get_bit - Returns the value of a bit at a given index.
+ * @n: The number from which to get the bit.
+ * @index: The index of the bit to retrieve.
+ * Return: The value of the bit at index or -1 if an error occurred.
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	int bit;
-	unsigned int max_bits;
+unsigned long int mask;
 
-	/* validate index is not out of range */
-	max_bits = (sizeof(unsigned long int) * 8);
-	if (index > max_bits)
-		return (-1);
-
-	/* shift number index places right to find bit */
-	bit = ((n >> index) & 1);
-
-	return (bit);
+if (index >= sizeof(unsigned long int) * 8) 
+{
+return (-10); 
 }
+mask = 1UL << index;
+return (n & mask) ? 1 : 0;
+}
+
